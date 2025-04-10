@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "even_odd.h"
 #include "mulTable.h"
 #include "sumFirstNaturalNumbers.h"
@@ -13,17 +14,18 @@ int main()
 
 	for (int i = 0; i < lenght; i++)
 	{
-		printf("\n%d: %3d is %s", i, number_arr[i], geekpushpop(number_arr[i]));
+		//printf("\n%d: %3d is %s", i, number_arr[i], geekpushpop(number_arr[i]));
+		printf("\n%d: %3d is %s", i, number_arr[i], bitwise_evenodd(number_arr[i]));
 	}
 
 	printf("\n--------------------------------------------------\n");
-	//multable(lenght);
+	multable(lenght);
 	//printTable(lenght, 1);
 	printf("\n--------------------------------------------------\n");
 	for (int i = 1; i <= lenght; i++)
 	{
-		//sumFirstNaturalNumbers(i);
-		//printf("\n%d", naturalFormulaSumNumbers(i));
+		sumFirstNaturalNumbers(i);
+		printf("\n%d", naturalFormulaSumNumbers(i));
 		//printf("\n%d", antiOverFlowSumNumbers(i));
 	}
 	printf("\n--------------------------------------------------\n");
@@ -33,5 +35,6 @@ int main()
 
 	swapValuesThirdVariable(a, b);
 
+	system("pause");
 	return 0;
 }
