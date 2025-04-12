@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="average_note.c" />
+    <ClCompile Include="closest_div_number.c" />
     <ClCompile Include="cuboid.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="even_odd.c" />
@@ -139,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="average_note.h" />
+    <ClInclude Include="closest_div_number.h" />
     <ClInclude Include="cuboid.h" />
     <ClInclude Include="even_odd.h" />
     <ClInclude Include="final_grade.h" />

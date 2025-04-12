@@ -4,6 +4,7 @@
 #include "mulTable.h"
 #include "sumFirstNaturalNumbers.h"
 #include "swapValues.h"
+#include "closest_div_number.h"
 
 int main()
 {
@@ -30,12 +31,16 @@ int main()
 	}
 	printf("\n--------------------------------------------------\n");
 
-	int a = 10;
-	int b = 20;
+	int a = 13;
+	int b = 4;
 
-	swapValuesThirdVariable(a, b);
+	//swapValuesThirdVariable(a, b);
+
+	int answer_first  = closestNumberDetailed( 13, 4);
+	printf("\n\nThe closest greater absolute number to %d, divisible by %d is %d\n\n",  13, 4, answer_first );
+	//int answer_second = closestNumberBase(-15, 6);
+	//printf("\n\nThe closest greater absolute number to %d, divisible by %d is %d\n\n", -15, 6, answer_second);
 
 	system("pause");
 	return 0;
-
 }
