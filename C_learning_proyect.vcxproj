@@ -128,23 +128,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="average_note.c" />
+    <ClCompile Include="BasicGeekForGeek.cpp" />
     <ClCompile Include="closest_div_number.c" />
     <ClCompile Include="cuboid.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="even_odd.c" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="final_grade.c" />
-    <ClCompile Include="mulTable.c" />
     <ClCompile Include="sumFirtsNaturalNumbers.c" />
     <ClCompile Include="swapValues.c" />
     <ClCompile Include="temperature.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="average_note.h" />
+    <ClInclude Include="BasicGeekForGeek.h" />
     <ClInclude Include="closest_div_number.h" />
     <ClInclude Include="cuboid.h" />
-    <ClInclude Include="even_odd.h" />
     <ClInclude Include="final_grade.h" />
-    <ClInclude Include="mulTable.h" />
     <ClInclude Include="sumFirstNaturalNumbers.h" />
     <ClInclude Include="swapValues.h" />
     <ClInclude Include="temperature.h" />

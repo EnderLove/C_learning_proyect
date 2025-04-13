@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="temperature.c">
@@ -30,12 +30,6 @@
     <ClCompile Include="average_note.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="even_odd.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="mulTable.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="sumFirtsNaturalNumbers.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -43,6 +37,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="closest_div_number.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicGeekForGeek.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -59,12 +56,6 @@
     <ClInclude Include="average_note.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="even_odd.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="mulTable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="sumFirstNaturalNumbers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -72,6 +63,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="closest_div_number.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicGeekForGeek.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
