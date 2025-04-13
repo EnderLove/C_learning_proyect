@@ -33,7 +33,7 @@ public:
 class SwapTwoValuesUtilities
 {
 public:
-    int message(int a, int b);
+    void message(int a, int b);
     int swap_values_thrid_variable (int a, int b);
     int swap_values_without_third  (int a, int b);
 };
