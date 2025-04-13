@@ -30,9 +30,6 @@
     <ClCompile Include="average_note.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sumFirtsNaturalNumbers.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="swapValues.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -54,9 +51,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="average_note.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="sumFirstNaturalNumbers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="swapValues.h">
