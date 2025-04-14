@@ -99,11 +99,11 @@ int SNU::anti_over_flow_sum_numbers(int n)
 }
 
 //SWAP_TO_VALUES_UTILITIES
+
 void SWU::message(int a, int b)
 {
 	printf("\nLet's swap the values %d and %d of position!\n", a, b);
 }
-
 int SWU::swap_values_thrid_variable(int a, int b)
 {
 	int store;

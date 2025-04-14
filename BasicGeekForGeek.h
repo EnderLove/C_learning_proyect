@@ -2,6 +2,7 @@
 #define BASIC_GEEK_FOR_GEEK_H
 
 //EVEN_ODD_UTILITIES
+
 class EvenOddUtilities {
 public:
     const char* pushpop_evenodd (int n);
@@ -12,6 +13,7 @@ public:
 };
 
 //MULTIPLICATION_TABLE_UTILITES
+
 class MultiplicationTableUtilities
 {
 public:
@@ -21,6 +23,7 @@ public:
 };
 
 //SUM_NATURAL_NUMBERS_UTILITIES
+
 class SumNaturalNumbersUtilities
 {
 public: 
@@ -30,6 +33,7 @@ public:
 };
 
 //SWAP_TO_VALUES_UTILITIES
+
 class SwapTwoValuesUtilities
 {
 public:

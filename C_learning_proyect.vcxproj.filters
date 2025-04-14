@@ -30,9 +30,6 @@
     <ClCompile Include="average_note.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="swapValues.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="closest_div_number.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -51,9 +48,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="average_note.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="swapValues.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="closest_div_number.h">
