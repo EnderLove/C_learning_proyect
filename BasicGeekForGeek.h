@@ -9,7 +9,7 @@ public:
     const char* bitwise_evenodd (int n);
     const char* even_odd_char   (int n);
     const char* geekpushpop     (int n);
-    bool even_odd               (int n);
+    bool        even_odd        (int n);
 };
 
 //MULTIPLICATION_TABLE_UTILITES
@@ -37,8 +37,26 @@ public:
 class SwapTwoValuesUtilities
 {
 public:
-    void message(int a, int b);
-    int swap_values_thrid_variable (int a, int b);
-    int swap_values_without_third  (int a, int b);
+    void message                    (int a, int b);
+    int  swap_values_thrid_variable (int a, int b);
+    int  swap_values_without_third  (int a, int b);
+};
+
+//CLOSEST_DIV_NUMBER_UTILITIES
+
+class ClosestDivNumberUtilities
+{
+public:
+    int closest_number_base     (int n, int m);
+    int closest_number_detailed (int n, int m);
+};
+
+//OPPOSITE_FACE_DICE_UTILITIES
+
+class OppositeFaceDiceUtilities
+{
+public:
+    int opposite_face_dice_if  (int n);
+    int opposite_face_dice_sum (int n);
 };
 #endif

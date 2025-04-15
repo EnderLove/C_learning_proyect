@@ -13,28 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="GeekForGeek">
+      <UniqueIdentifier>{14651c10-9b81-4e3d-9f31-3612198ba318}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BasicGeekForGeek.cpp">
+      <Filter>GeekForGeek</Filter>
+    </ClCompile>
     <ClCompile Include="temperature.c">
-      <Filter>Source Files</Filter>
+      <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="final_grade.c">
-      <Filter>Source Files</Filter>
+      <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="cuboid.c">
-      <Filter>Source Files</Filter>
+      <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="average_note.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="closest_div_number.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BasicGeekForGeek.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -48,9 +48,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="average_note.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="closest_div_number.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BasicGeekForGeek.h">

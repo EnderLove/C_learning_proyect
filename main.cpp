@@ -8,7 +8,9 @@ int main()
 	SumNaturalNumbersUtilities   testSumNatural;
 	MultiplicationTableUtilities testMultTable;
 	EvenOddUtilities             testEvenOdd;
-	
+	ClosestDivNumberUtilities    testClosestDiv;
+	OppositeFaceDiceUtilities    testOppositeFace;
+
 	int a = 10;
 	int b =  5;
 
@@ -26,7 +28,8 @@ int main()
 	printf("\n");
 
 //MULTIPLICATION_TALBLE_PROBLEM
-
+	
+	printf("\n");
 	testMultTable.message(lenght);
 	testMultTable.multiplication_table(lenght);
 	printf("\n");
@@ -35,13 +38,31 @@ int main()
 
 	printf("\n");
 	testSumNatural.sum_first_natural_numbers(lenght);
+	printf("\n");
 
 //SWAP_TWO_NUMBERS_PROBLEM
 
 	printf("\n");
 	testSwapNumber.message(a, b);
 	testSwapNumber.swap_values_without_third(a, b);
+	printf("\n");
 
+//CLOSEST_DIV_NUMBER_PROBLEM
+
+	printf("\n");
+	testClosestDiv.closest_number_detailed(a + 40, b);
+	printf("\n");
+	
+//OPPOSITE_FACE_DICE_PROBLEM
+
+	int dice_face01 = testOppositeFace.opposite_face_dice_if  ( 8 );
+	int dice_face02 = testOppositeFace.opposite_face_dice_sum ( 3 );
+	
+	printf("%d", dice_face02);
+
+//---------------------------------------------------------------------------	
+
+	printf("\n");
 	system("pause");
 	return 0;
 }

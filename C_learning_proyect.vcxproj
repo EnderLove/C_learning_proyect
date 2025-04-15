@@ -129,7 +129,6 @@
   <ItemGroup>
     <ClCompile Include="average_note.c" />
     <ClCompile Include="BasicGeekForGeek.cpp" />
-    <ClCompile Include="closest_div_number.c" />
     <ClCompile Include="cuboid.c" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="final_grade.c" />
@@ -138,7 +137,6 @@
   <ItemGroup>
     <ClInclude Include="average_note.h" />
     <ClInclude Include="BasicGeekForGeek.h" />
-    <ClInclude Include="closest_div_number.h" />
     <ClInclude Include="cuboid.h" />
     <ClInclude Include="final_grade.h" />
     <ClInclude Include="temperature.h" />
